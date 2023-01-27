@@ -1,0 +1,135 @@
+
+/* ここからtop-wrapper */
+
+.top-wrapper {
+    background-image: url(../eneclo/f11038c.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    
+
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.title {
+    letter-spacing: 13px;
+    margin-bottom: 15px;
+    color: rgb(168, 153, 144);
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+
+}
+
+.pg {
+    color: white;
+    margin-top: 20px;
+    font-size: 70px;
+
+}
+
+/* ここからgallery-wrapper */
+
+.gallery-wrapper {
+    height: 3650px;
+    background-color: rgb(168, 153, 144);
+    color: white;
+    font-family: '游明朝';
+
+}
+
+.short-text {
+    padding: 200px 0 200px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding-bottom: 50px;
+}
+
+
+h2 span {
+    color: rgb(255, 204, 65);
+    font-size: 23px;
+}
+
+.first-galleries {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-galleries img {
+    flex: auto;
+    width: 33.3%;
+    padding: 7px;
+}
+
+.second-galleries {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-galleries img {
+    flex: auto;
+    width: 50%;
+    padding: 7px;
+}
+
+/*　ここからheader */
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(235, 244, 245, 0.313);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    color: white;
+    
+}
+
+.header-left {
+    float: left;
+    font-family: "Passion One";
+    font-size: 40px;
+    margin: 10px 0 10px 20px;
+    
+}
+
+.header-right {
+    float: right;
+    margin: 20px 20px 20px 0;
+    font-size: 22px;
+}
+
+.header-right a {
+    padding-left: 20px;
+}
+
+/* ここからfooter */
+
+footer {
+    height: 100px;
+    background-color:rgb(163, 146, 136);
+    
+}
+
+footer h4 {
+    font-size: 24px;
+    font-family: "Passion One";
+    text-align: center;
+    padding-top: 35px;
+}
+
